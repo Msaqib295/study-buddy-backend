@@ -1,0 +1,7 @@
+.venv/
+studyBuddy.venv/
+__pycache__/
+*.pyc
+.env
+study_buddy_db/
+study_buddy_app/
