@@ -1,3 +1,6 @@
+import sys
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from fastapi import FastAPI, UploadFile, File
 import chromadb
 from groq import Groq
