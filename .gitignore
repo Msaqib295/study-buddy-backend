@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 .env
 study_buddy_db/
-study_buddy_app/
+study_buddy_app/venv/
